@@ -152,8 +152,17 @@ body {
 	max-width: 50%;
 }
 
+.sectiontitle1 {
+	color: #007F87;
+	padding-top: 6em;
+	margin-top: -3em;
+	font-size: 1.5em;
+}
+
 .sectiontitle {
 	color: #007F87;
+	margin-top: 3em;
+	font-size: 1.5em;
 }
 
 .text {
@@ -166,7 +175,15 @@ body {
 	font-style: italic;
 }
 
+.row {
+	display: flex;
+}
 
+@media (min-width: 1050px) {
+	.titlebox {
+		background-position-y: 60%;
+	}
+}
 
 /* ------------------------------------------------------------ */
 /* media query containing styles for larger screens */
@@ -212,6 +229,11 @@ body {
 	}
 
 	.text {
+		margin: 1.5em;
+	}
+
+	.row {
+		display: block;
 		margin: 1.5em;
 	}
 

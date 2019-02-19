@@ -17,7 +17,9 @@
 	<!-- Webfonts -->
 	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro|Lato" rel="stylesheet">
 
-	
+	<script src="scripts.js"></script>
+
+	<link rel="icon" href="img/favicon.ico">
 
 </head>
 <body class="homepage">
@@ -29,7 +31,7 @@
 		<div class="navbar" id="navbar">
 			<a class="homelink" href="index.html"><img class="homelink" src="img/logo.svg" alt="Logo"></a>
 			<a class="navlinks" href="about.html">About</a>
-			<a class="navlinks" href="index.html">Chapters</a>
+			<a class="navlinks" href="#chaptermenu">Chapters</a>
 			<a class="navlinks" href="index.html">Downloads</a>
 		</div>
 
@@ -43,16 +45,16 @@
 				<a class="b2" href="index.html">
 					<p>Overview</p>
 				</a>
-				<a class="b3" href="index.html">
+				<a class="b3" href="#chaptermenu">
 					<p>Report Chapters</p>
 				</a>
 			</div>
 
-			<h2 class="subtitle" id="sf">The National Climate Assessment (NCA) assesses the science of climate change and variability and its impacts across the United States, now and throughout this century.</h2>
+			<h2 class="subtitle">The National Climate Assessment (NCA) assesses the science of climate change and variability and its impacts across the United States, now and throughout this century.</h2>
 		</div>
 
 		<div class="text" >
-			<h3 class="sectiontitle">Summary Findings</h3>
+			<h3 class="sectiontitle1" id="sf">Summary Findings</h3>
 			<p>These Summary Findings represent a high-level synthesis of the material in the underlying report. The findings consolidate Key Messages and supporting evidence from 16 national-level topic chapters, 10 regional chapters, and 2 chapters that focus on societal response strategies (mitigation and adaptation). Unless otherwise noted, qualitative statements regarding future conditions in these Summary Findings are broadly applicable across the range of different levels of future climate change and associated impacts considered in this report.</p>
 
 			<h3 class="sectiontitle">1. Communities</h3>
@@ -68,8 +70,75 @@
 			<p>Climate change presents added risks to interconnected systems that are already exposed to a range of stressors such as aging and deteriorating infrastructure, land-use changes, and population growth. Extreme weather and climate-related impacts on one system can result in increased risks or failures in other critical systems, including water resources, food production and distribution, energy and transportation, public health, international trade, and national security. The full extent of climate change risks to interconnected systems, many of which span regional and national boundaries, is often greater than the sum of risks to individual sectors. Failure to anticipate interconnected impacts can lead to missed opportunities for effectively managing the risks of climate change and can also lead to management responses that increase risks to other sectors and regions. Joint planning with stakeholders across sectors, regions, and jurisdictions can help identify critical risks arising from interaction among systems ahead of time.</p>
 		</div>
 
+		<div class="chaptermenu" id="chaptermenu">
+			<div class="row">
+			<div class="column">
+				<h3>Front Matter</h3>
+				<ul class="list-unstyled" role="menu">
+					<li><a href="about.html">About this Report</a></li>
+					<li><a href="/chapter/front-matter-guide">Guide to the Report</a></li>
+				</ul>
+				<div>
+				<a href="#sf"><strong>Summary Findings</strong></a><br>
+				1. <a href="/chapter/1"><strong>Overview</strong></a> </i>
+				</div>
+				<h3 style="margin-top: .25em;">National Topics</h3>
+				<ol start="2" role="menu">
+					<li><a href="/chapter/2">Our Changing Climate</a></li>
+					<li><a href="/chapter/3">Water</a></li>
+					<li><a href="/chapter/4">Energy Supply, Delivery &amp; Demand</a></li>
+					<li><a href="/chapter/5">Land Cover &amp; Land-Use Change</a></li>
+					<li><a href="/chapter/6">Forests</a></li>
+					<li><a href="/chapter/7">Ecosystems, Ecosystem Services, &amp; Biodiversity</a></li>
+					<li><a href="/chapter/8">Coastal Effects</a></li>
+					<li><a href="/chapter/9">Oceans &amp; Marine Resources</a></li>
+					<li><a href="/chapter/10">Agriculture &amp; Rural Communities</a></li>
+					<li><a href="/chapter/11">Built Environment, Urban Systems, &amp; Cities</a></li>
+					<li><a href="/chapter/12">Transportation</a></li>
+				</ol>
+			</div>
+			<div class="column">
+				<h3 class="national-topics">National Topics (cont.)</h3>
+				<ol start="13" role="menu">
+					<li><a href="/chapter/13">Air Quality</a></li>
+					<li><a href="/chapter/14">Human Health</a></li>
+					<li><a href="/chapter/15">Tribes &amp; Indigenous Peoples</a></li>
+					<li><a href="/chapter/16">Climate Effects on U.S. International Interests</a></li>
+					<li><a href="/chapter/17">Sectoral Interactions, Multiple Stressors, &amp; Complex Systems</a></li>
+				</ol>
+				<h3>Regions</h3>
+				<ol start="18" role="menu">
+					<li><a href="/chapter/18">Northeast</a></i></li>
+					<li><a href="/chapter/19">Southeast</a></li>
+					<li><a href="/chapter/20">U.S. Caribbean</a></li>
+					<li><a href="/chapter/21">Midwest</a></li>
+					<li><a href="/chapter/22">Northern Great Plains</a></li>
+					<li><a href="/chapter/23">Southern Great Plains</a></li>
+					<li><a href="/chapter/24">Northwest</a></li>
+					<li><a href="/chapter/25">Southwest</a></li>
+					<li><a href="/chapter/26">Alaska</a></li>
+					<li><a href="/chapter/27">Hawai‘i &amp; U.S.-Affiliated Pacific Islands</a></li>
+				</ol>
+			</div>
+			<div class="column">
+				<h3>Responses</h3>
+				<ol start="28" role="menu">
+					<li><a href="/chapter/28">Reducing Risks Through Adaptation Actions</a></li>
+					<li><a href="/chapter/29">Reducing Risks Through Emissions Mitigation</a></li>
+				</ol>
+				<h3>Appendices</h3>
+				<ol>
+					<li><a href="/chapter/appendix-1">Report Development Process</a></li>
+					<li><a href="/chapter/appendix-2">Information in the Fourth National Climate Assessment</a></li>
+					<li><a href="/chapter/appendix-3">Data Tools &amp; Scenario Products</a></li>
+					<li><a href="/chapter/appendix-4">Looking Abroad</a></li>
+					<li><a href="/chapter/appendix-5">Frequently Asked Questions</a></li>
+				</ol>
+			</div>
+			</div>
+		</div>
+
 	</div><!-- end container -->
 	
 </body>
-<script src="scripts.js"></script>
 </html>
