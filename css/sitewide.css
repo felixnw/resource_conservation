@@ -39,9 +39,18 @@ body {
 
 .navbar {
 	font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
-	background-color: #4EBFFF;
+	background-color: rgba(0, 0, 0, 0);
+	/* background-color: #4EBFFF; */
 	font-size: 1.5em;
 	padding: 1em;
+	position: fixed;
+	width: 100%;
+	transition: 0.4s all;
+}
+
+.navbarcolor {
+	background-color: #fbb8ac;
+	transition: 0.3s all;
 }
 
 .navbar a {
@@ -53,13 +62,21 @@ body {
 	padding-left: 0.75em;
 }
 
+.homelink {
+	text-align: left;
+	max-width: 1.3em;
+}
+
 .titlebox {
 	font-family: "Lato";
-	background-color: #4EBFFF;
+	background-color: #fbb8ac;
 	color: white;
 	display: grid;
 	grid-template-columns: 0.25fr 1fr 0.5fr 1fr 0.25fr;
 	padding-bottom: 2em;
+	background-image: url("../img/bg.jpg");
+	background-size: cover;
+	padding-top: 3em;
 }
 
 .titlebox ::selection {
@@ -67,7 +84,7 @@ body {
 }
 
 .title {
-	font-size: 13vh;
+	font-size: 6em;
 	line-height: 1.1em;
 	grid-column: 2/3;
 }
@@ -132,10 +149,21 @@ body {
 	font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: 1.3em;
 	font-weight: normal;
+	max-width: 50%;
 }
 
 .sectiontitle {
 	color: #007F87;
+}
+
+.text {
+	margin-left: 10%;
+	margin-right: 30%;
+}
+
+.quote {
+	margin-left: 5%;
+	font-style: italic;
 }
 
 
@@ -149,8 +177,14 @@ body {
 		font-size: 1.2em;
 	}
 
+	.navlinks {
+		padding-left: 0.30em;
+		padding-right: 0.30em;
+	}
+
 	.titlebox {
 		display: block;
+		padding-top: 5em;
 	}
 
 	.title {
@@ -174,6 +208,11 @@ body {
 
 	.subtitle {
 		margin: 1em;
+		max-width: 100%;
+	}
+
+	.text {
+		margin: 1.5em;
 	}
 
 } /* end media query */

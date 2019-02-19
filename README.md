@@ -4,7 +4,7 @@ Starter files for intro web design/development
 
 STUDENTS: edit this file. Add text that describes your project. Include your name, web address, code/image citations, and any notes.
 
-
+Image: Photo by Steven Ha on Unsplash (https://unsplash.com/photos/5KxbOrjB4Ag)
 
 ***
 

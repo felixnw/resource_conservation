@@ -17,6 +17,8 @@
 	<!-- Webfonts -->
 	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro|Lato" rel="stylesheet">
 
+	
+
 </head>
 <body class="homepage">
 <!-- Change this classname for each page/type! -->
@@ -24,7 +26,8 @@
 	<!-- Page content typically goes inside the container -->
 	<div class="container">
 
-		<div class="navbar">
+		<div class="navbar" id="navbar">
+			<a class="homelink" href="index.html"><img class="homelink" src="img/logo.svg" alt="Logo"></a>
 			<a class="navlinks" href="about.html">About</a>
 			<a class="navlinks" href="index.html">Chapters</a>
 			<a class="navlinks" href="index.html">Downloads</a>
@@ -34,7 +37,7 @@
 			<h1 class="title">Fourth National Climate Assessment</h1>
 
 			<div class="buttons">
-				<a class="b1" href="index.html">
+				<a class="b1" href="#sf">
 					<p>Summary Findings</p>
 				</a>
 				<a class="b2" href="index.html">
@@ -45,15 +48,28 @@
 				</a>
 			</div>
 
-			<h2 class="subtitle">The National Climate Assessment (NCA) assesses the science of climate change and variability and its impacts across the United States, now and throughout this century.</h2>
+			<h2 class="subtitle" id="sf">The National Climate Assessment (NCA) assesses the science of climate change and variability and its impacts across the United States, now and throughout this century.</h2>
 		</div>
 
-		<div class="text">
+		<div class="text" >
 			<h3 class="sectiontitle">Summary Findings</h3>
 			<p>These Summary Findings represent a high-level synthesis of the material in the underlying report. The findings consolidate Key Messages and supporting evidence from 16 national-level topic chapters, 10 regional chapters, and 2 chapters that focus on societal response strategies (mitigation and adaptation). Unless otherwise noted, qualitative statements regarding future conditions in these Summary Findings are broadly applicable across the range of different levels of future climate change and associated impacts considered in this report.</p>
+
+			<h3 class="sectiontitle">1. Communities</h3>
+			<p class="quote">Climate change creates new risks and exacerbates existing vulnerabilities in communities across the United States, presenting growing challenges to human health and safety, quality of life, and the rate of economic growth.</p>
+			<p>The impacts of climate change are already being felt in communities across the country. More frequent and intense extreme weather and climate-related events, as well as changes in average climate conditions, are expected to continue to damage infrastructure, ecosystems, and social systems that provide essential benefits to communities. Future climate change is expected to further disrupt many areas of life, exacerbating existing challenges to prosperity posed by aging and deteriorating infrastructure, stressed ecosystems, and economic inequality. Impacts within and across regions will not be distributed equally. People who are already vulnerable, including lower-income and other marginalized communities, have lower capacity to prepare for and cope with extreme weather and climate-related events and are expected to experience greater impacts. Prioritizing adaptation actions for the most vulnerable populations would contribute to a more equitable future within and across communities. Global action to significantly cut greenhouse gas emissions can substantially reduce climate-related risks and increase opportunities for these populations in the longer term.</p>
+			
+			<h3 class="sectiontitle">2. Economy</h3>
+			<p class="quote">Without substantial and sustained global mitigation and regional adaptation efforts, climate change is expected to cause growing losses to American infrastructure and property and impede the rate of economic growth over this century.</p>
+			<p>In the absence of significant global mitigation action and regional adaptation efforts, rising temperatures, sea level rise, and changes in extreme events are expected to increasingly disrupt and damage critical infrastructure and property, labor productivity, and the vitality of our communities. Regional economies and industries that depend on natural resources and favorable climate conditions, such as agriculture, tourism, and fisheries, are vulnerable to the growing impacts of climate change. Rising temperatures are projected to reduce the efficiency of power generation while increasing energy demands, resulting in higher electricity costs. The impacts of climate change beyond our borders are expected to increasingly affect our trade and economy, including import and export prices and U.S. businesses with overseas operations and supply chains. Some aspects of our economy may see slight near-term improvements in a modestly warmer world. However, the continued warming that is projected to occur without substantial and sustained reductions in global greenhouse gas emissions is expected to cause substantial net damage to the U.S. economy throughout this century, especially in the absence of increased adaptation efforts. With continued growth in emissions at historic rates, annual losses in some economic sectors are projected to reach hundreds of billions of dollars by the end of the century—more than the current gross domestic product (GDP) of many U.S. states.</p>
+
+			<h3 class="sectiontitle">3. Interconnected Impacts</h3>
+			<p class="quote">Climate change affects the natural, built, and social systems we rely on individually and through their connections to one another. These interconnected systems are increasingly vulnerable to cascading impacts that are often difficult to predict, threatening essential services within and beyond the Nation’s borders.</p>
+			<p>Climate change presents added risks to interconnected systems that are already exposed to a range of stressors such as aging and deteriorating infrastructure, land-use changes, and population growth. Extreme weather and climate-related impacts on one system can result in increased risks or failures in other critical systems, including water resources, food production and distribution, energy and transportation, public health, international trade, and national security. The full extent of climate change risks to interconnected systems, many of which span regional and national boundaries, is often greater than the sum of risks to individual sectors. Failure to anticipate interconnected impacts can lead to missed opportunities for effectively managing the risks of climate change and can also lead to management responses that increase risks to other sectors and regions. Joint planning with stakeholders across sectors, regions, and jurisdictions can help identify critical risks arising from interaction among systems ahead of time.</p>
 		</div>
 
 	</div><!-- end container -->
 	
 </body>
+<script src="scripts.js"></script>
 </html>
