@@ -127,6 +127,18 @@ body {
 	padding-top: 3em;
 }
 
+.titlebox5 {
+	font-family: "Lato";
+	background-color: #fbb8ac;
+	color: white;
+	display: grid;
+	grid-template-columns: 0.25fr 1fr 0.5fr 1fr 0.25fr;
+	padding-bottom: 2em;
+	background-image: url("../img/bg5.jpg");
+	background-size: cover;
+	padding-top: 3em;
+}
+
 .titlebox4 ::selection {
 	background-color: #3e97ca;
 }
@@ -285,6 +297,10 @@ body {
 	.titlebox4 {
 		background-position: center;
 	}
+
+	.titlebox5 {
+		background-position: center;
+	}
 }
 
 /* ------------------------------------------------------------ */
@@ -317,6 +333,11 @@ body {
 	}
 
 	.titlebox4 {
+		display: block;
+		padding-top: 5em;
+	}
+
+	.titlebox5 {
 		display: block;
 		padding-top: 5em;
 	}
