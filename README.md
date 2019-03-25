@@ -4,6 +4,7 @@ Starter files for intro web design/development
 
 STUDENTS: edit this file. Add text that describes your project. Include your name, web address, code/image citations, and any notes.
 
+Felix
 Remake of National Climate Change Assessment website meant to conserve resources (https://nca2018.globalchange.gov/)
 Live at: https://felixnw.github.io/resource_conservation/
 
