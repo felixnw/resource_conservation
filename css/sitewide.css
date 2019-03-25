@@ -83,6 +83,54 @@ body {
 	background-color: #3e97ca;
 }
 
+.titlebox2 {
+	font-family: "Lato";
+	background-color: #fbb8ac;
+	color: white;
+	display: grid;
+	grid-template-columns: 0.25fr 1fr 0.5fr 1fr 0.25fr;
+	padding-bottom: 2em;
+	background-image: url("../img/bg2.jpg");
+	background-size: cover;
+	padding-top: 3em;
+}
+
+.titlebox2 ::selection {
+	background-color: #3e97ca;
+}
+
+.titlebox3 {
+	font-family: "Lato";
+	background-color: #fbb8ac;
+	color: white;
+	display: grid;
+	grid-template-columns: 0.25fr 1fr 0.5fr 1fr 0.25fr;
+	padding-bottom: 2em;
+	background-image: url("../img/bg3.jpg");
+	background-size: cover;
+	padding-top: 3em;
+}
+
+.titlebox3 ::selection {
+	background-color: #3e97ca;
+}
+
+.titlebox4 {
+	font-family: "Lato";
+	background-color: #fbb8ac;
+	color: white;
+	display: grid;
+	grid-template-columns: 0.25fr 1fr 0.5fr 1fr 0.25fr;
+	padding-bottom: 2em;
+	background-image: url("../img/bg4.jpg");
+	background-size: cover;
+	padding-top: 3em;
+}
+
+.titlebox4 ::selection {
+	background-color: #3e97ca;
+}
+
 .title {
 	font-size: 6em;
 	line-height: 1.1em;
@@ -152,17 +200,25 @@ body {
 	max-width: 50%;
 }
 
+.pagetitle {
+	font-size: 4em;
+	line-height: 1.1em;
+	grid-column: 2/3;
+}
+
 .sectiontitle1 {
 	color: #007F87;
 	padding-top: 6em;
 	margin-top: -3em;
 	font-size: 1.5em;
+	line-height: 1.3em;
 }
 
 .sectiontitle {
 	color: #007F87;
 	margin-top: 3em;
 	font-size: 1.5em;
+	line-height: 1.3em;
 }
 
 .text {
@@ -177,11 +233,44 @@ body {
 
 .row {
 	display: flex;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+.column {
+	margin-right: 1em;
+}
+
+.column h3 {
+	color: #007F87;
+}
+
+.column a {
+	color: #222;
+	text-decoration: none;
+}
+
+.chaptermenu {
+	margin-left: 5.3%;
+}
+
+@media (min-width: 900px) {
+	.titlebox3 {
+		background-position: center;
+	}
 }
 
 @media (min-width: 1050px) {
 	.titlebox {
 		background-position-y: 60%;
+	}
+
+	.titlebox2 {
+		background-position: center;
+	}
+
+	.titlebox4 {
+		background-position: center;
 	}
 }
 
@@ -200,6 +289,21 @@ body {
 	}
 
 	.titlebox {
+		display: block;
+		padding-top: 5em;
+	}
+
+	.titlebox2 {
+		display: block;
+		padding-top: 5em;
+	}
+
+	.titlebox3 {
+		display: block;
+		padding-top: 5em;
+	}
+
+	.titlebox4 {
 		display: block;
 		padding-top: 5em;
 	}
@@ -226,6 +330,12 @@ body {
 	.subtitle {
 		margin: 1em;
 		max-width: 100%;
+	}
+
+	.pagetitle {
+		font-size: 2em;
+		margin: 0.5em;
+		margin-top: 0em;
 	}
 
 	.text {

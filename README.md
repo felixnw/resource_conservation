@@ -4,7 +4,15 @@ Starter files for intro web design/development
 
 STUDENTS: edit this file. Add text that describes your project. Include your name, web address, code/image citations, and any notes.
 
+Remake of National Climate Change Assessment website meant to conserve resources (https://nca2018.globalchange.gov/)
+Live at: https://felixnw.github.io/resource_conservation/
+
+
 Image: Photo by Steven Ha on Unsplash (https://unsplash.com/photos/5KxbOrjB4Ag)
+Image 2: Marcelo Quinan (https://unsplash.com/photos/u0ZgqJD55pE)
+Image 3: Photo by Joseph Barrientos on Unsplash (https://unsplash.com/photos/oQl0eVYd_n8)
+Image 4: Photo by Anna Jiménez Calaf on Unsplash (https://unsplash.com/photos/PLOq7Ouq0fM)
+Logo and text: https://nca2018.globalchange.gov/
 
 ***
 
