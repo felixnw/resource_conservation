@@ -233,7 +233,7 @@ body {
 
 .row {
 	display: flex;
-	margin-left: 5%;
+	margin-left: 7%;
 	margin-right: 5%;
 }
 
@@ -254,6 +254,19 @@ body {
 	margin-left: 5.3%;
 }
 
+.text hr {
+	border: 1px solid #007F87;
+    margin-top: 7.5em;
+    margin-bottom: 8em;
+}
+
+@media (max-width: 800px) {
+	.chaptermenu {
+		padding-top: 3em;
+    	margin-top: -5em;
+	}
+}
+ 
 @media (min-width: 900px) {
 	.titlebox3 {
 		background-position: center;
