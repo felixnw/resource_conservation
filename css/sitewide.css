@@ -376,6 +376,14 @@ body {
 		margin: 1.5em;
 	}
 
+	.sectiontitle {
+		margin-top: 2em;
+	}
+
+	.sectiontitle1 {
+		padding-top: 5em;
+	}
+
 	.row {
 		display: block;
 		margin: 1.5em;
