@@ -28,7 +28,7 @@ div, main, article, section, aside, hgroup, header, footer, address, nav {
 
 body {
 	font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
-	font-size: 16px;
+	font-size: 17px;
 	line-height: 1.5em;
 	color: #222;
 }
@@ -236,6 +236,7 @@ body {
 .text {
 	margin-left: 10%;
 	margin-right: 30%;
+	max-width: 800px;
 }
 
 .quote {
